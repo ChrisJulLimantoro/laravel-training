@@ -40,4 +40,8 @@ class personController extends Controller
             'data' => $update->toArray(),
         ]);
     }
+
+    public function hello(){
+        return "Hello World";
+    }
 }
